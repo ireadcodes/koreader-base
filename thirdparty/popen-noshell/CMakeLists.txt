@@ -26,7 +26,7 @@ set(BUILD_CMD ${KO_MAKE_RECURSIVE} -j${PARALLEL_JOBS} ${MAKE_VAR})
 # NOTE: As of right now (1f9eaf4eeef348d1efe0f3c7fe8ab670653cfbb1), wait until stuff settles down before bumping this.
 ko_write_gitclone_script(
     GIT_CLONE_SCRIPT_FILENAME
-    https://github.com/famzah/popen-noshell.git
+    git@github.com:famzah/popen-noshell.git
     e715396a4951ee91c40a98d2824a130f158268bb
     ${SOURCE_DIR}
 )

@@ -145,7 +145,7 @@ set(PATCH_CMD11 "${KO_PATCH} ${CMAKE_CURRENT_SOURCE_DIR}/fix_link_cmd.patch")
 ep_get_source_dir(SOURCE_DIR)
 ko_write_gitclone_script(
     GIT_CLONE_SCRIPT_FILENAME
-    https://github.com/ArtifexSoftware/mupdf.git
+    git@github.com:ArtifexSoftware/mupdf.git
     tags/1.13.0
     ${SOURCE_DIR}
     "thirdparty/jbig2dec thirdparty/mujs thirdparty/openjpeg"

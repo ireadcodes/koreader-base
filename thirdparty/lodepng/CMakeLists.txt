@@ -23,7 +23,7 @@ endif()
 
 ko_write_gitclone_script(
     GIT_CLONE_SCRIPT_FILENAME
-    https://github.com/lvandeve/lodepng.git
+    git@github.com:lvandeve/lodepng.git
     c18b949b71f45e78b1f9a28c5d458bce0da505d6
     ${SOURCE_DIR}
 )

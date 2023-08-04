@@ -42,7 +42,7 @@ endif()
 
 ko_write_gitclone_script(
     GIT_CLONE_SCRIPT_FILENAME
-    https://github.com/zeromq/czmq.git
+    git@github.com:zeromq/czmq.git
     2a0ddbc4b2dde623220d7f4980ddd60e910cfa78
     ${SOURCE_DIR}
 )

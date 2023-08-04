@@ -24,7 +24,7 @@ set(INSTALL_CMD env ${BUILD_ENV} ${KO_MAKE_RECURSIVE} -C lib -j${PARALLEL_JOBS} 
 
 ko_write_gitclone_script(
     GIT_CLONE_SCRIPT_FILENAME
-    https://github.com/facebook/zstd.git
+    git@github.com:facebook/zstd.git
     tags/v1.5.5
     ${SOURCE_DIR}
 )

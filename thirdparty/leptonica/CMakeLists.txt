@@ -11,7 +11,7 @@ ep_get_source_dir(SOURCE_DIR)
 #       Probably applies to mupdf & tesseract, too...
 ko_write_gitclone_script(
     GIT_CLONE_SCRIPT_FILENAME
-    https://github.com/DanBloomberg/leptonica.git
+    git@github.com:DanBloomberg/leptonica.git
     1.74.1
     ${SOURCE_DIR}
 )

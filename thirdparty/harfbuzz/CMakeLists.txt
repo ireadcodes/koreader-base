@@ -53,7 +53,7 @@ set(HB_VER 8.1.1)
 
 ko_write_gitclone_script(
     GIT_CLONE_SCRIPT_FILENAME
-    https://github.com/harfbuzz/harfbuzz.git
+    git@github.com:harfbuzz/harfbuzz.git
     ${HB_VER}
     ${SOURCE_DIR}
 )

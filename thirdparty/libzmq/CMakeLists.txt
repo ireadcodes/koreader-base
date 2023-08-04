@@ -42,7 +42,7 @@ set(CLEAR_BUILD_DIR ${CMAKE_COMMAND} -E remove_directory ${BINARY_DIR} COMMAND $
 
 ko_write_gitclone_script(
     GIT_CLONE_SCRIPT_FILENAME
-    https://github.com/zeromq/libzmq
+    git@github.com:zeromq/libzmq
     883e95b22e0bffffa72312ea1fec76199afbe458
     ${SOURCE_DIR}
 )

@@ -74,7 +74,7 @@ set(PATCH_CMD1 "${KO_PATCH} ${CMAKE_CURRENT_SOURCE_DIR}/fix-old-tc-build.patch")
 
 ko_write_gitclone_script(
     GIT_CLONE_SCRIPT_FILENAME
-    https://github.com/NiLuJe/zsync2.git
+    git@github.com:NiLuJe/zsync2.git
     e618d18f6a7cbf350cededa17ddfe8f76bdf0b5c
     ${SOURCE_DIR}
 )

@@ -33,7 +33,7 @@ set(BUILD_CMD ${BUILD_CMD} "LUA_INCDIR=${LUA_INCDIR}" "LUA_LIBDIR=${LUA_LIBDIR}"
 
 ko_write_gitclone_script(
     GIT_CLONE_SCRIPT_FILENAME
-    https://github.com/msva/lua-htmlparser
+    git@github.com:msva/lua-htmlparser
     5ce9a775a345cf458c0388d7288e246bb1b82bff
     ${SOURCE_DIR}
 )

@@ -15,7 +15,7 @@ ep_get_binary_dir(BINARY_DIR)
 
 ko_write_gitclone_script(
     GIT_CLONE_SCRIPT_FILENAME
-    https://github.com/JuliaStrings/utf8proc.git
+    git@github.com:JuliaStrings/utf8proc.git
     v2.8.0
     ${SOURCE_DIR}
 )
